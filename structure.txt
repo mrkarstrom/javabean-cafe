@@ -1,0 +1,15 @@
+javabean-cafe/
+│
+├─ index.html
+├─ menu.html
+├─ about.html
+├─ contact.html
+│
+├─ css/
+│   └─ style.css
+│
+├─ js/
+│   └─ main.js
+│
+└─ images/
+    └─ (bilder till webbplatsen)

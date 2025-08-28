@@ -1,0 +1,70 @@
+/* Grundläggande styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header & nav */
+header {
+  background-color: #6f4e37;
+  color: white;
+  padding: 1rem;
+}
+header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Highlights sektion */
+.highlights {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.highlights article {
+  flex: 1 1 200px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsivitet */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .highlights {
+    flex-direction: column;
+  }
+}
